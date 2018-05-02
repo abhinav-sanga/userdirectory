@@ -1,0 +1,153 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color:#f7f7f7;
+}
+
+.headd{
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+div#mainhd{
+  background-color:white;
+  width:100%;
+}
+
+h2{
+  float:left;
+  margin-left:05%;
+}
+
+#addButton{
+  float:right;
+  margin-left:60%;
+  background:#6666ff;
+  color:white;
+  font-weight:normal;
+}
+
+th{
+  color:#cccccc;
+  font-weight:normal;
+}
+
+#wrapper{
+  display:flex;
+  align-items:center;
+  height:8em;
+  margin-bottom:30px;
+}
+
+div.table-responsive{
+  background-color:white;
+  margin-left:5%;
+  margin-right:5%;
+  border-collapse:collapse;
+}
+
+.glyphicon {
+  margin-right: 0.5em;
+}
+
+.glyphicon-option-horizontal{
+  margin-right: 0;
+  margin-bottom: 0;
+  color: grey;
+}
+
+#dp {
+  border-radius: 50%;
+  margin: 10% 10%;
+}
+#profpic {
+  border: none;
+  margin-right: 3%;
+  width: 25%;
+  height: 25%;
+  float: left;
+  background-color: white;
+}
+
+#usad{
+  margin-left: 3%;
+  float: right;
+}
+
+#uploadbtn {
+  width: 100%;
+  background-color: white;
+  color: #000;
+  border: 0.5px solid grey;
+  padding: 2px 2px;
+}
+
+.moddivs {
+  align-items: center;
+  padding: 2% 7%;
+}
+
+#modscnddiv {
+  display: flex;
+}
+
+
+#subbtn{
+  width: 100%;
+  background: #6666ff;
+  color: white;
+}
+
+.modal-body {
+  background-color:#f7f7f7;
+}
+
+label {
+  margin-bottom: 4%;
+}
+
+.table-responsive {
+  margin-bottom: 0;
+  overflow: visible;
+}
+
+.usertable>tbody>tr>td, .usertable>tbody>tr>th, .usertable>tfoot>tr>td, .usertable>tfoot>tr>th, .usertable>thead>tr>td, .usertable>thead>tr>th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: small;
+  font-family: 'Open Sans', sans-serif;
+}
+.usertable>tbody>tr>td {
+  vertical-align: center;
+}
+
+#tabhed>th {
+  vertical-align: middle;
+  border-bottom: 0;
+}
+
+.dropdown-menu li{
+  padding: 3px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.deledit {
+  border: none;
+  background: transparent;
+  text-align: center;
+}
+
+.glyphicon-trash{
+  color: red;
+}
+
+.glyphicon-edit {
+  color: slategrey;
+}
+
+#ud{
+  display:flex;
+  align-items:center;
+}
