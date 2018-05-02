@@ -56,7 +56,7 @@ app.use(function(err, req, res, next) {
 
 var http = require('http');
 setInterval(function() {
-    //http.get("http://starktech05.herokuapp.com");
+    http.get("http://smartbeings.herokuapp.com/");
     console.log("executed");
 }, 3000000); // every 50 minutes (3000000)
 
