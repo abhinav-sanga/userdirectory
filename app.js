@@ -12,7 +12,7 @@ var index = require('./routes/index');
 var app = express();
 
 
-mongoose.connect('mongodb://abhi0515:abhinav05@ds257838.mlab.com:57838/smartbeings');
+mongoose.connect('mongodb://abhi1505:abhinav05@ds211440.mlab.com:11440/smartbeings');
 //mongoose.connect('mongodb://127.0.0.1:27017/smartbeings');
 var db = mongoose.connection;
 db.on('error',console.error);
